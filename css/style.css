@@ -36,6 +36,7 @@ body {
     display: flex;  /* Added for icon positioning */
     justify-content: center;  /* Added for icon positioning */
     align-items: center;  /* Added for icon positioning */
+    z-index: 2 !important;
 }
 
 #whatsapp-button img {
