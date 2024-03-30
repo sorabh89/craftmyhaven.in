@@ -25,9 +25,9 @@ body {
   position: fixed;
     right: 20px;
     bottom: 20px;
-    width: 50px;  /* Set a specific width for the button */
-    height: 50px;  /* Set a specific height for the button */
-    background-color: #4CAF50; /* Green color */
+    width: 60px;  /* Set a specific width for the button */
+    height: 60px;  /* Set a specific height for the button */
+    /* background-color: #4CAF50; Green color */
     color: white;
     padding: 10px;  /* Adjust padding to accommodate icon size */
     border: none;
