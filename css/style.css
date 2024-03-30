@@ -25,17 +25,14 @@ body {
   position: fixed;
     right: 20px;
     bottom: 20px;
-    width: 70px;  /* Set a specific width for the button */
-    height: 70px;  /* Set a specific height for the button */
-    /* background-color: #4CAF50; Green color */
+    width: 70px;
+    height: 70px;
     color: white;
-    padding: 10px;  /* Adjust padding to accommodate icon size */
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    display: flex;  /* Added for icon positioning */
-    justify-content: center;  /* Added for icon positioning */
-    align-items: center;  /* Added for icon positioning */
+    display: flex;
+    z-index: 9999;
 }
 
 #whatsapp-button img {
