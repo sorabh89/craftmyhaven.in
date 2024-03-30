@@ -103,7 +103,7 @@ figure {
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 22px;
+    /* font-size: 22px; */
     text-transform: uppercase;
     /* margin-bottom: 1em; */
     display: block;
