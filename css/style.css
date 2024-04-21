@@ -316,10 +316,12 @@ figure figcaption {
   border: none;
   z-index: 1;
   margin-bottom: 0;
+  height: 100vh; /* chamil */
 }
 #colorlib-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
+  height: 100%; /* chamil */
 }
 #colorlib-hero .flexslider .slides li {
   background-repeat: no-repeat;
@@ -327,6 +329,7 @@ figure figcaption {
   background-position: bottom center;
   min-height: 400px;
   position: relative;
+  height: 100%; /* chamil */
 }
 #colorlib-hero .flexslider .flex-control-nav {
   bottom: 20px;
@@ -406,6 +409,9 @@ figure figcaption {
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
+  #colorlib-hero {
+    margin-bottom: 0; /* chamil */
+  }
   #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
     font-size: 28px;
   }
