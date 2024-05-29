@@ -153,15 +153,14 @@ figure figcaption {
 #colorlib-aside #colorlib-logo {
   text-align: right;
   font-weight: 700;
-  /* font-size: 22px; */
   text-transform: uppercase;
-  /* margin-bottom: 1em; */
+  margin-bottom: 40px;
   display: block;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
   #colorlib-aside #colorlib-logo {
-    margin-bottom: 1em;
+    margin-bottom: 30px;
   }
 }
 #colorlib-aside #colorlib-logo a {
