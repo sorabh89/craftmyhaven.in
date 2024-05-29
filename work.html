@@ -260,6 +260,21 @@
             </div>
         </div>
     </div>
+	<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.animate-box');
+            elements.forEach(function(el) {
+                const effect = el.getAttribute('data-animate-effect');
+                if (effect === 'fadeInLeft') {
+                    el.classList.add('visible');
+                }
+            });
+        });
+
+        function setImage(src) {
+            document.getElementById('modalImage').src = src;
+        }
+    </script>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
