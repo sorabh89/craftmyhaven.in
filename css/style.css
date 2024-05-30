@@ -589,6 +589,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-span-text {
   font-size: 10px;
   font-weight: 400;
+  text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8;
   position: relative;
