@@ -586,6 +586,14 @@ body.offcanvas .colorlib-nav-toggle {
   position: relative;
 }
 
+.colorlib-span-text {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+}
+
 
 .heading-meta {
   margin-bottom: 15px;
