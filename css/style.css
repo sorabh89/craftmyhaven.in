@@ -44,7 +44,7 @@ body {
 }
 
 #whatsapp-button img {
-  width: 100%; /* Make the image fit the button size */
+  width: 85%; /* Make the image fit the button size */
 }
 
 a {
